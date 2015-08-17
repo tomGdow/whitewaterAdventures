@@ -1,0 +1,6 @@
+c:\users\thomas\documents\visual studio 2013\Projects\Frameworkstgd\Frameworkstgd\bin\Frameworkstgd.dll.config
+c:\users\thomas\documents\visual studio 2013\Projects\Frameworkstgd\Frameworkstgd\bin\Frameworkstgd.dll
+c:\users\thomas\documents\visual studio 2013\Projects\Frameworkstgd\Frameworkstgd\bin\Frameworkstgd.pdb
+c:\users\thomas\documents\visual studio 2013\Projects\Frameworkstgd\Frameworkstgd\obj\Debug\Frameworkstgd.csprojResolveAssemblyReference.cache
+c:\users\thomas\documents\visual studio 2013\Projects\Frameworkstgd\Frameworkstgd\obj\Debug\Frameworkstgd.dll
+c:\users\thomas\documents\visual studio 2013\Projects\Frameworkstgd\Frameworkstgd\obj\Debug\Frameworkstgd.pdb

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Whitewater Adventures</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="ext-modules/psFramework/psFramework.css" rel="stylesheet" /> 
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link href="app/app.css" rel="stylesheet" />
+    <link href="ext-modules/psMenu/psMenu.css" rel="stylesheet" />
+
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+
+    <script src="ext-modules/psMenu/psMenuModule.js"></script>
+    <script src="ext-modules/psMenu/psMenuController.js"></script>
+    <script src="ext-modules/psMenu/psMenuDirective.js"></script>>
+
+    <script src="ext-modules/psDashboard/psDashboardModule.js"></script>
+
+    <script src="ext-modules/psFramework/psFrameworkModule.js"></script>
+    <script src="ext-modules/psFramework/psFrameworkController.js"></script>
+    <script src="ext-modules/psFramework/psFrameworkDirective.js"></script>
+    <script src="ext-modules/psMenu/psMenuItemDirective.js"></script>
+
+    <script src="app/appModule.js"></script>
+</head>
+<body class="container-fluid">
+    <ps-framework title="Whitewater Adventures"
+                  subtitle="Administrative Application"
+                  icon-file="images/kayak-icon-flat.png">
+
+        <ps-menu>
+            <ps-menu-item label="Dashboard" icon ="fa-dashboard"></ps-menu-item>
+            <ps-menu-item label="Locations" icon="fa-location-arrow"></ps-menu-item>
+            <ps-menu-item label="Raft Guides" icon="fa-user"></ps-menu-item>
+       
+        </ps-menu>
+
+    </ps-framework>
+
+    <input ng-model="mytest"/>
+    <div ng-bind="mytest"></div>
+</body>
+</html>
