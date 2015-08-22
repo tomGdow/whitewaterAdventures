@@ -6,6 +6,14 @@
                 <p class="ps-logo-title">{{ title }}</</p>
                 <p class="ps-logo-subtitle">{{ subtitle }}</p>
             </div>
+
+            <div ng-if="isMenuButtonVisible" ng-click="menuButtonClicked()"
+                 class="ps-collapsed pull-right">
+                <button type="button" class="btn ps-nav-button">
+                <i class="fa fa-bars"></i>
+                </button>
+                
+            </div>
         </div>
         <div class="ps-right-side-controls col-sm-6">
             <div>
@@ -19,3 +27,5 @@
    
 </div>
 <div ng-transclude></div>
+
+<div ng-view class="ps-view" ng-class="{'ps-view-fullwidth' : !isMenuVertical || !isMenuVisible }"></div>

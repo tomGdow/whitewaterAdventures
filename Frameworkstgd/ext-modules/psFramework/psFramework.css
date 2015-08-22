@@ -6,7 +6,7 @@
 }
 
 .ps-logo-area {
-   text-align: center;
+   /*text-align: center;*/
 }
 
 .ps-title-area {
@@ -34,7 +34,14 @@
     margin-top: -13px;
 }
 
-
+@media screen and (max-width: 430px) {
+    .ps-icon {
+        display :none;
+    }
+    .ps-logo-title {
+        font-size: 18px;
+    }
+}
 .ps-right-side-controls {
     line-height: 60px;
 
@@ -55,5 +62,31 @@
     .ps-logo-area {
           text-align: left;
     }
+}
 
+.ps-collapsed-menu {
+    display: inline-block;
+    height: 100%;
+}
+
+.ps-nav-button {
+    height: 40px;
+    width: 60px;
+    margin-top: 10px;
+    border: 1px solid #888;
+    padding: 0;
+    font-size: 26px;
+    color: #777;
+}
+
+.ps-view {
+    margin-left: 200px;
+    padding: 20px;
+    background-color: #ccc;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.ps-view-full-width {
+    margin-left: 0;
 }
