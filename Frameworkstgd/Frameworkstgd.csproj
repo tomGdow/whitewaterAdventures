@@ -87,13 +87,15 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
-    <Content Include="app\directives\wwaDashboardDirective.js" />
+    <Content Include="app\dialogs\directives\wwaDashboardDirective.js" />
     <Content Include="Content\ui-bootstrap-csp.css" />
+    <Content Include="dist\psFramework.css" />
+    <Content Include="dist\psFramework.js" />
     <Content Include="ext-modules\psDashboard\psDashboard.css" />
     <Content Include="ext-modules\psDashboard\psDashboardDirective.js" />
     <Content Include="ext-modules\psDashboard\psDashboardModule.js" />
-    <Content Include="app\directives\wwaGuidesDirective.js" />
-    <Content Include="app\directives\wwwLocationsDirective.js" />
+    <Content Include="app\dialogs\directives\wwaGuidesDirective.js" />
+    <Content Include="app\dialogs\directives\wwwLocationsDirective.js" />
     <Content Include="ext-modules\psDashboard\psDashboardTemplate.html" />
     <Content Include="ext-modules\psDashboard\psWidgetBodyDirective.js" />
     <Content Include="ext-modules\psDashboard\psWidgetBodyTemplate.html" />
@@ -117,6 +119,7 @@
     <Content Include="ext-modules\psMenu\psMenuTemplate.html" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="gulpfile.js" />
     <Content Include="images\employee-andy.png" />
     <Content Include="images\employee-april.png" />
     <Content Include="images\employee-don.png" />
@@ -133,6 +136,7 @@
     <Content Include="images\river4.png" />
     <Content Include="images\therm-icon.png" />
     <Content Include="images\vest-icon.png" />
+    <Content Include="index_copy_old.html" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -156,6 +160,7 @@
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Scripts\angular-route.min.js.map" />
+    <Content Include="package.json" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\bootstrap.js" />
