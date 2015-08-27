@@ -6,13 +6,14 @@
 }
 
 .ps-logo-area {
-   /*text-align: center;*/
+    /*text-align: center;*/
 }
 
 .ps-title-area {
     display: inline-block;
-    text-align: center;
 }
+
+
 
 .ps-icon {
     display: inline-block;
@@ -36,31 +37,27 @@
 
 @media screen and (max-width: 430px) {
     .ps-icon {
-        display :none;
+        display: none;
     }
     .ps-logo-title {
         font-size: 18px;
     }
 }
+
 .ps-right-side-controls {
     line-height: 60px;
-
 }
 
 .ps-right-side-controls > div {
-  text-align: center;
-
+    text-align: center;
 }
-
 
 @media screen and (min-width: 768px) {
-
-.ps-right-side-controls > div {
-  text-align: right;
-
-}
+    .ps-right-side-controls > div {
+        text-align: right;       
+    }
     .ps-logo-area {
-          text-align: left;
+        text-align: left;
     }
 }
 
@@ -90,3 +87,51 @@
 .ps-view-full-width {
     margin-left: 0;
 }
+
+
+.ps-user-profile {
+    background-color: #333;
+    color: white;
+    width: 200px;
+    min-height: 120px;
+    padding-top: 10px;
+}
+
+.ps-user-profile > div {
+    display: inline-block;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+.ps-user-profile > div > p {
+    margin-bottom: 2px;
+}
+
+.ps-user-profile > div > button {
+    margin-top: 8px;
+}
+
+.ps-user-profile img {
+    float: left;
+    margin: 12px;
+    width: 80px;
+    height: 80px;
+}
+
+.ps-user-profile-small {
+    color: #333;
+    padding-top: 4px;
+}
+
+.ps-user-profile-small > span {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ps-user-profile-small img {
+    width: 40px;
+    height: 40px;
+}
+
+
